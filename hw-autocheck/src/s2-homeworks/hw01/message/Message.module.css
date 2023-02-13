@@ -13,25 +13,34 @@
     width: 48px;
     height: 48px;
     margin-top: 12px;
+    margin-left: 16px;
 }
 
 .text {
-    width: 527px;
-    min-height: 60px;
+    width: 500px;
+    height: 60px;
     background: #0066CC;
-    border-radius: 5px;
+    border-radius: 5px 5px 0 5px;
     color: #DDEEFF;
     padding: 7px 25px 7px 7px;
 }
 
 .text:after {
-
+    content: "";
+    bottom: 0;
+    right: 100%;
+    display: block;
+    width: 20px;
+    height: 20px;
+   margin-left: 493px;
+    margin-top: -9px;
+    background: radial-gradient(40px at top right, transparent 50%, rgba(0, 102, 204) 0) no-repeat right bottom;
 }
 
 .name {
     font-weight: 600;
     font-size: 18px;
-    margin-left: 428px;
+    margin-left: 417px;
 }
 
 .messageText {
@@ -45,6 +54,6 @@
     font-size: 10px;
     line-height: 12px;
     color: #000000;
-    margin-left: 538px;
+    margin-left: 527px;
     margin-top: 5px;
 }
